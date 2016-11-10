@@ -1,6 +1,12 @@
 #!/usr/bin/python
 # encoding: utf-8
 
+'''
+The word color may only available on Liunx prompt.
+
+'''
+
+
 import UserList
 
 class ChainedList(UserList.UserList):
