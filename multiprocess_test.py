@@ -20,10 +20,10 @@ def proc():
     # print [e.get(timeout=1) for e in multi_apply]
 
     map_res = pool.map_async(ft1, [range(4), range(6,9), range(12, 18)])
-    print "map_async result: ", map_res.get()
+    print "map_async result: \n", map_res.get()
 
     map_res = pool.map(ft1, [range(4), range(6,9), range(12, 18)])
-    print "map result: ", map_res
+    print "\n\nmap result: ", map_res
     pool.close()
 
     pool.close()
@@ -34,8 +34,12 @@ def ft1(args):
     interval = randint(1, 10)
     print "Cur process ID: %s" % os.getpid()
     print "Sleep %ds..." % interval
-    time.sleep(interval)
-    return args
+    return ft2(interval)
+
+
+def ft2(n):
+    time.sleep(n)
+    return n + 1
 
 
 if __name__ == '__main__':
