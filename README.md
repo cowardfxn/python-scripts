@@ -1,3 +1,3 @@
 # Python Scripts
-Scripts for work use or Python grammer concept tests.
+Scripts for work use or Python grammar concept tests.
 
