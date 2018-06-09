@@ -1,0 +1,418 @@
+1524363173998	geckodriver	INFO	Listening on 127.0.0.1:64001
+1524363175011	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.Zv0hXY47ndy9
+1524363175014	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1524363175029	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64017
+1524363175914	Marionette	INFO	Enabled via --marionette
+2018-04-22 10:12:57.186 plugin-container[17185:481870] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524363177810	Marionette	INFO	Listening on port 64017
+2018-04-22 10:12:59.252 plugin-container[17187:481991] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8003, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-04-22 10:13:33.698 plugin-container[17219:482718] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1524363523708	geckodriver	INFO	Listening on 127.0.0.1:49416
+1524363524722	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.uVzEFrRFb5bA
+1524363524725	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1524363524729	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49427
+1524363525334	Marionette	INFO	Enabled via --marionette
+2018-04-22 10:18:46.379 plugin-container[17369:486602] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x823f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524363526858	Marionette	INFO	Listening on port 49427
+2018-04-22 10:18:48.237 plugin-container[17370:486684] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524363528442	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[Child 17369, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1524363593012	geckodriver	INFO	Listening on 127.0.0.1:49805
+1524363594019	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.6dSFopF0Yndk
+1524363594021	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1524363594026	geckodriver::marionette	INFO	Connecting to Marionette on localhost:49816
+1524363594596	Marionette	INFO	Enabled via --marionette
+2018-04-22 10:19:55.619 plugin-container[17391:487887] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f03, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524363596072	Marionette	INFO	Listening on port 49816
+2018-04-22 10:19:57.299 plugin-container[17392:487962] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x863f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524363597828	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1524363747373	geckodriver	INFO	Listening on 127.0.0.1:50493
+1524363748382	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.4cW3vpc4gfSO
+1524363748385	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1524363748390	geckodriver::marionette	INFO	Connecting to Marionette on localhost:50504
+1524363748944	Marionette	INFO	Enabled via --marionette
+2018-04-22 10:22:29.995 plugin-container[17433:489598] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524363750884	Marionette	INFO	Listening on port 50504
+2018-04-22 10:22:32.470 plugin-container[17436:489717] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8043, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524363752694	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+1524364114287	geckodriver	INFO	Listening on 127.0.0.1:52055
+1524364115294	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.O2FWfDtzAV9o
+1524364115298	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1524364115303	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52066
+1524364115864	Marionette	INFO	Enabled via --marionette
+2018-04-22 10:28:36.882 plugin-container[17568:492997] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8107, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524364117398	Marionette	INFO	Listening on port 52066
+2018-04-22 10:28:38.581 plugin-container[17569:493074] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x743f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524364118930	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1524364211288	geckodriver	INFO	Listening on 127.0.0.1:52517
+1524364211299	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.5Kjo2cf9VDQE
+1524364211302	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1524364211306	geckodriver::marionette	INFO	Connecting to Marionette on localhost:52522
+1524364211886	Marionette	INFO	Enabled via --marionette
+2018-04-22 10:30:13.195 plugin-container[17595:494304] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8743, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524364213680	Marionette	INFO	Listening on port 52522
+2018-04-22 10:30:15.014 plugin-container[17597:494393] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://weibo.com
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+1524365117379	geckodriver	INFO	Listening on 127.0.0.1:56303
+1524365118396	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.is52lrnXR0pa
+1524365118401	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1524365118406	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56314
+1524365119178	Marionette	INFO	Enabled via --marionette
+2018-04-22 10:45:20.752 plugin-container[17713:500303] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-04-22 10:45:21.601 plugin-container[17714:500367] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x783f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524365121738	Marionette	INFO	Listening on port 56314
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1524365141063	geckodriver	INFO	Listening on 127.0.0.1:56551
+1524365142075	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.rUJyUtRfXj7t
+1524365142079	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1524365142083	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56562
+1524365142654	Marionette	INFO	Enabled via --marionette
+2018-04-22 10:45:43.776 plugin-container[17729:500809] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7d3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524365144304	Marionette	INFO	Listening on port 56562
+2018-04-22 10:45:45.527 plugin-container[17730:500945] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x853f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524365145852	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+1524365158141	geckodriver	INFO	Listening on 127.0.0.1:56697
+1524365158152	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.tTznNxcqetdl
+1524365158154	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1524365158158	geckodriver::marionette	INFO	Connecting to Marionette on localhost:56702
+1524365158714	Marionette	INFO	Enabled via --marionette
+2018-04-22 10:45:59.752 plugin-container[17744:501669] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7803, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524365160278	Marionette	INFO	Listening on port 56702
+2018-04-22 10:46:01.594 plugin-container[17745:501753] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b07, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1524365221679	geckodriver	INFO	Listening on 127.0.0.1:57074
+1524365221691	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.riq5IMsvKzp3
+1524365221693	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1524365221698	geckodriver::marionette	INFO	Connecting to Marionette on localhost:57079
+1524365222228	Marionette	INFO	Enabled via --marionette
+2018-04-22 10:47:03.178 plugin-container[17764:502495] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8143, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524365223602	Marionette	INFO	Listening on port 57079
+2018-04-22 10:47:04.867 plugin-container[17765:502564] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1524369652334	geckodriver	INFO	Listening on 127.0.0.1:58812
+1524369653345	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.ldF1FIAzDjnZ
+1524369653347	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1524369653352	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58823
+1524369653902	Marionette	INFO	Enabled via --marionette
+2018-04-22 12:00:54.832 plugin-container[18326:531592] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8107, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524369655360	Marionette	INFO	Listening on port 58823
+2018-04-22 12:00:56.440 plugin-container[18327:531698] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x773f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524369656770	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 125"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:125 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:141 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:51 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:30 < uninit()@resource://activity-stream/lib/Store.jsm:153 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:274 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///Applications/Firefox.app/Contents/Resources/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4419 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2279 < GeckoDriver.prototype.quit()@driver.js:3270 < despatch()@server.js:557 < execute()@server.js:531 < onPacket/<()@server.js:506 < onPacket()@server.js:505 < _onJSONObjectReady/<()@transport.js:500
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1]: [Tiling:Client] Failed to allocate a TextureClient
+[GFX1]: ValidateTile failed
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 18327, Chrome_ChildThread] WARNING: pipe error: Broken pipe: file /builds/worker/workspace/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 709
+1524369673229	geckodriver	INFO	Listening on 127.0.0.1:58967
+1524369673241	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.mqvCAdQU9ffC
+1524369673244	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1524369673248	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58972
+1524369673780	Marionette	INFO	Enabled via --marionette
+2018-04-22 12:01:14.680 plugin-container[18341:532466] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7c43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524369675094	Marionette	INFO	Listening on port 58972
+2018-04-22 12:01:16.185 plugin-container[18342:532535] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7e43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524369779286	geckodriver	INFO	Listening on 127.0.0.1:59504
+1524369779302	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.npYHyMr15hku
+1524369779305	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1524369779312	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59509
+1524369780006	Marionette	INFO	Enabled via --marionette
+2018-04-22 12:03:01.439 plugin-container[18370:533524] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1524369782238	Marionette	INFO	Listening on port 59509
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+2018-04-22 12:03:02.560 plugin-container[18371:533599] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7647, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 325: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1528205644121	geckodriver	INFO	Listening on 127.0.0.1:59757
+1528205644171	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.f8JmECpcOofJ
+1528205644179	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1528205644203	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59766
+2018-06-05 21:34:15.770 plugin-container[20211:1314540] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7a43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-05 21:34:16.665 plugin-container[20212:1314594] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x863f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528205656910	Marionette	INFO	Listening on port 59766
+console.warn: LoginRecipes: getRecipes: falling back to a synchronous message for: https://weibo.com
+console.warn: nsLoginManager: searchLogins: `formSubmitURL` or `httpRealm` is recommended
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1528205945185	geckodriver	INFO	Listening on 127.0.0.1:60163
+1528205945241	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.dGrggCGmC3u7
+1528205945245	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1528205945250	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60168
+2018-06-05 21:39:06.718 plugin-container[20436:1320121] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x843f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528205947322	Marionette	INFO	Listening on port 60168
+2018-06-05 21:39:07.914 plugin-container[20453:1320241] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1528206063289	geckodriver	INFO	Listening on 127.0.0.1:60308
+1528206063300	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.cWCFkTiSb2RS
+1528206063302	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1528206063306	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60313
+2018-06-05 21:41:04.753 plugin-container[20562:1322047] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7007, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528206065199	Marionette	INFO	Listening on port 60313
+2018-06-05 21:41:05.732 plugin-container[20566:1322136] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x843f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1528206309472	geckodriver	INFO	Listening on 127.0.0.1:60464
+1528206309482	mozprofile::profile	INFO	Using profile path /var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.tJcUIw4mpIWu
+1528206309484	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1528206309488	geckodriver::marionette	INFO	Connecting to Marionette on localhost:60469
+2018-06-05 21:45:10.995 plugin-container[20665:1324969] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528206311556	Marionette	INFO	Listening on port 60469
+2018-06-05 21:45:12.131 plugin-container[20669:1325044] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+JavaScript error: jar:file:///Applications/Firefox.app/Contents/Resources/omni.ja!/components/nsUrlClassifierListManager.js, line 321: NS_ERROR_NOT_INITIALIZED: Component returned failure code: 0xc1f30001 (NS_ERROR_NOT_INITIALIZED) [nsIUrlClassifierDBService.getTables]
+1528206758409	geckodriver	INFO	geckodriver 0.20.1
+1528206758419	geckodriver	INFO	Listening on 127.0.0.1:60703
+1528206759436	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--disable-gpu" "-profile" "/var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.NqDHDjrlc5xd"
+2018-06-05 21:52:41.058 plugin-container[20984:1331632] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7903, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528206761536	Marionette	INFO	Listening on port 60710
+1528206761634	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-05 21:52:42.134 plugin-container[20985:1331709] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528206935200	geckodriver	INFO	geckodriver 0.20.1
+1528206935208	geckodriver	INFO	Listening on 127.0.0.1:60853
+1528206936225	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--disable-gpu" "-profile" "/var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.jFoE2TLmW3YY"
+2018-06-05 21:55:38.074 plugin-container[21050:1333430] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8d43, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2018-06-05 21:55:38.821 plugin-container[21051:1333509] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7043, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528206938829	Marionette	INFO	Listening on port 60860
+1528206938869	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528207654228	geckodriver	INFO	geckodriver 0.20.1
+1528207654240	geckodriver	INFO	Listening on 127.0.0.1:61348
+1528207655261	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--disable-gpu" "-profile" "/var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.oSYlteFaS2m0"
+2018-06-05 22:07:36.846 plugin-container[21165:1340756] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x733b, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528207657625	Marionette	INFO	Listening on port 61355
+1528207657739	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-05 22:07:37.904 plugin-container[21166:1340847] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x873f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://g.alicdn.com/kissy/k/1.4.2/seed-min.js, line 51: TypeError: i is null
+JavaScript error: https://g.alicdn.com/tb/login/0.4.7/weibo/login/login.js, line 1: TypeError: KISSY.add is not a function
+JavaScript error: https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3De1593335e45769fe6c1d63ff34dd3a56, line 153: TypeError: S.getScript is not a function
+JavaScript error: https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3De1593335e45769fe6c1d63ff34dd3a56, line 9: TypeError: r.ready is not a function
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/common/totalShow.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/unLogin.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/bottomInput.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/base.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/feedList.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/filtertab.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/filtertab.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/user/noResultInterest.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/loginBox.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: http://js.t.sinajs.cn/t4/apps/search/js/common/dialog/forward.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: http://js.t.sinajs.cn/t4/apps/search/js/common/bubble/moodFeedPublish.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: http://js.t.sinajs.cn/t4/apps/search/js/common/dialog/moodSmallPublish.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/unLogin.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/base.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/bottomInput.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/feedList.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/loginBox.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/common/totalShow.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/filtertab.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/filtertab.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/user/noResultInterest.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: http://js.t.sinajs.cn/t4/apps/search/js/common/dialog/forward.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: http://js.t.sinajs.cn/t4/apps/search/js/common/bubble/moodFeedPublish.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: http://js.t.sinajs.cn/t4/apps/search/js/common/dialog/moodSmallPublish.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1528208111063	geckodriver	INFO	geckodriver 0.20.1
+1528208111072	geckodriver	INFO	Listening on 127.0.0.1:61813
+1528208112086	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--disable-gpu" "-profile" "/var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.aN5ZND1Pwxzi"
+2018-06-05 22:15:13.524 plugin-container[21201:1346015] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8907, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528208114041	Marionette	INFO	Listening on port 61820
+1528208114090	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-05 22:15:14.641 plugin-container[21202:1346081] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x783f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528208206596	geckodriver	INFO	geckodriver 0.20.1
+1528208206604	geckodriver	INFO	Listening on 127.0.0.1:62017
+1528208207623	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--disable-gpu" "-profile" "/var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.TotuMR81vked"
+2018-06-05 22:16:49.012 plugin-container[21222:1347158] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x813f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528208209463	Marionette	INFO	Listening on port 62024
+1528208209529	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-05 22:16:50.140 plugin-container[21223:1347229] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x823f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://g.alicdn.com/kissy/k/1.4.2/seed-min.js, line 51: TypeError: i is null
+JavaScript error: https://g.alicdn.com/tb/login/0.4.7/weibo/login/login.js, line 1: TypeError: KISSY.add is not a function
+JavaScript error: https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3Da9c3efc3ed8a09b4371363d3fcacf2da, line 153: TypeError: S.getScript is not a function
+JavaScript error: https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3Da9c3efc3ed8a09b4371363d3fcacf2da, line 9: TypeError: r.ready is not a function
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/common/totalShow.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/unLogin.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/user/noResultInterest.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/bottomInput.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/feedList.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/filtertab.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/filtertab.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/loginBox.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/base.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: http://js.t.sinajs.cn/t4/apps/search/js/common/dialog/forward.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: http://js.t.sinajs.cn/t4/apps/search/js/common/bubble/moodFeedPublish.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: http://js.t.sinajs.cn/t4/apps/search/js/common/dialog/moodSmallPublish.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+1528208338386	geckodriver	INFO	geckodriver 0.20.1
+1528208338394	geckodriver	INFO	Listening on 127.0.0.1:62221
+1528208339408	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "-marionette" "--disable-gpu" "-profile" "/var/folders/hw/2zhvsp3d1xqdg5bd437wz1sw0000gn/T/rust_mozprofile.9B6BzF8YpAKt"
+2018-06-05 22:19:00.799 plugin-container[21252:1349225] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x843f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+1528208341312	Marionette	INFO	Listening on port 62228
+1528208341394	Marionette	WARN	TLS certificate errors will be ignored for this session
+2018-06-05 22:19:01.831 plugin-container[21253:1349292] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x7a3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+JavaScript error: https://g.alicdn.com/kissy/k/1.4.2/seed-min.js, line 51: TypeError: i is null
+JavaScript error: https://g.alicdn.com/tb/login/0.4.7/weibo/login/login.js, line 1: TypeError: KISSY.add is not a function
+JavaScript error: https://login.taobao.com/member/login.jhtml?from=wbfast&style=wbfast&goto=http%3A%2F%2Fweibo.com%2Fa%2Fbind%2Flogin%3Fentry%3Dtaobao%26sid%3De10aca11ced65963b6174fd99a2622eb, line 153: TypeError: S.getScript is not a function
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/searchTop.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/base.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/common/totalShow.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/unLogin.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/search_v6/js/pl/common/loginBox.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/firstuser.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/common/bottomInput.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/feedList.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js1.t.sinajs.cn/t4/apps/search_v6/js/pl/user/noResultInterest.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/filtertab.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: https://js2.t.sinajs.cn/t4/apps/search_v6/js/pl/user/filtertab.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: http://js.t.sinajs.cn/t4/apps/search/js/common/dialog/forward.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: http://js.t.sinajs.cn/t4/apps/search/js/common/dialog/moodSmallPublish.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+JavaScript warning: http://js.t.sinajs.cn/t4/apps/search/js/common/bubble/moodFeedPublish.js?version=2.0180606060606E+23, line 1: unreachable code after return statement
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
